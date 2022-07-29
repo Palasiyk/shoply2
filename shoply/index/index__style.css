@@ -1,0 +1,317 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #E5E5E5;
+}
+
+section {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  background: #FFFFFF;
+}
+
+.intro {
+  background: -webkit-gradient(linear, left top, right top, color-stop(1.6%, #FCF9F6), to(#FFFFFF));
+  background: linear-gradient(90deg, #FCF9F6 1.6%, #FFFFFF 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.intro .intro__text {
+  margin: 76px 0 136px 105px;
+  width: 587px;
+  height: 372px;
+}
+.intro .intro__text .intro__bigtext {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 132%;
+  letter-spacing: 0.015em;
+  color: #393D45;
+}
+.intro .intro__text .intro__suptext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 0.015em;
+  color: #616467;
+}
+.intro .intro__img {
+  margin: 36px 75px 97px 0;
+  width: 608px;
+  height: 425px;
+}
+.intro .header__btn {
+  width: 169px;
+  height: 52px;
+  background-color: #211F1C;
+}
+.intro .header__btn .btn__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 132%;
+  letter-spacing: 0.015em;
+  color: #FFFFFF;
+}
+
+.conteiner__partners {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  text-align: center;
+}
+
+.partners {
+  margin: 114px auto;
+  height: 162px;
+}
+.partners .partners__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 54px;
+  color: #393D45;
+  margin: 0px auto;
+}
+.partners .partners__logo {
+  margin: 62px 185px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.conteiner__product {
+  padding: 60px 0;
+  background: -webkit-gradient(linear, left top, right top, color-stop(1.6%, #FCF9F6), to(#FFFFFF));
+  background: linear-gradient(90deg, #FCF9F6 1.6%, #FFFFFF 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.conteiner__product .product__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 132%;
+  letter-spacing: 0.015em;
+  color: #393D45;
+  text-align: center;
+}
+.conteiner__product .product__title {
+  margin: 62px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner__product .product__title .product__info {
+  margin: 22px 36px;
+  width: 270px;
+  height: 420px;
+  position: relative;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+.conteiner__product .product__title .product__info .btn__detail {
+  width: 138px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #393D45;
+  position: absolute;
+  left: 32px;
+  bottom: 16px;
+  z-index: 1;
+}
+.conteiner__product .product__title .product__info .btn__detail .btn__detail__text {
+  color: #FFFFFF;
+}
+.conteiner__product .product__title .product__info .btn__cart {
+  position: absolute;
+  width: 52px;
+  height: 36px;
+  border-radius: 10px;
+  left: 185px;
+  bottom: 16px;
+  z-index: 1;
+}
+.conteiner__product .product__btn {
+  text-align: center;
+}
+.conteiner__product .product__btn .btn__all {
+  width: 218px;
+  height: 54px;
+  background: #393D45;
+  border-radius: 2px;
+}
+.conteiner__product .product__btn .btn__product__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  margin: auto;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.conteiner__product .product__btn .btn__product__arrow {
+  margin: 16px 0 0 6px;
+}
+
+.conteiner__benefits {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  text-align: center;
+}
+.conteiner__benefits .benefits {
+  text-align: center;
+}
+.conteiner__benefits .benefits .benefits__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 54px;
+  color: #393D45;
+}
+.conteiner__benefits .benefits .benefits__service {
+  margin: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner__benefits .benefits .benefits__service .benefits__info {
+  text-align: center;
+}
+.conteiner__benefits .benefits .benefits__service .benefits__info .benefits__info__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #393D45;
+}
+.conteiner__benefits .benefits .benefits__service .benefits__info .benefits__info__suptext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  text-align: center;
+  color: #616467;
+}
+
+.conteiner__client {
+  background: -webkit-gradient(linear, left top, right top, color-stop(1.6%, #FCF9F6), to(#FFFFFF));
+  background: linear-gradient(90deg, #FCF9F6 1.6%, #FFFFFF 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.conteiner__client .client__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 54px;
+  color: #393D45;
+  text-align: center;
+}
+.conteiner__client .client__title {
+  widows: 100%;
+  max-width: 1077px;
+  height: 440px;
+  margin: 100px 154px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.conteiner__client .client__title .client__img {
+  margin-right: 63px;
+}
+.conteiner__client .client__title .client__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+.conteiner__client .client__title .client__info .client__bigtext {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #393D45;
+}
+.conteiner__client .client__title .client__info .client__suptext {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  color: #616467;
+}
+.conteiner__client .client__title .client__info .client__name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #616467;
+}
+.conteiner__client .client__title .client__info .client__client {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #616467;
+}

@@ -1,0 +1,29 @@
+@mixin fonR700 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+}
+
+@mixin fonR400 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin fonL700 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+}
+
+@mixin fonL500 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #E5E5E5;
+}

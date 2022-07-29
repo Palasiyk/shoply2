@@ -1,0 +1,85 @@
+@import "mixin.scss";
+
+.login{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    background: #fff;
+    height: 600px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    .login__title{
+        margin: 0px auto;
+        width: 100%;
+        max-width: 960px;
+        height: 525px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .login__img{
+            display: block;
+        }
+        .login__section{
+            margin: 67px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .login__text{
+                @include fonL500();
+                font-size: 32px;
+                line-height: 132%;
+                letter-spacing: 0.015em;            
+                color: #334756;
+            }
+            .login__form{
+                width: 336.25px;
+                height: 52.12px;
+                background: #F3F6FF;
+                border-radius: 30px;
+                text-align: left;
+                .login__form__img{
+                    margin: 16px;
+                }
+            }
+            .user{
+                margin-top: 35px;
+            }
+            .lock{
+                margin: 41px auto 7px;
+            }
+            .login__lupa{
+                @include fonL500();
+                font-size: 16px;
+                line-height: 19px;
+                color: #334756;
+                margin-left: 200px;
+            }
+            .btn__login{
+                margin: 45px auto 22px;
+                width: 336.25px;
+                height: 52.12px;
+                left: 802.38px;
+                top: 513.15px;
+                background: #211F1C;
+                border-radius: 50px;
+                .btn__login__text{
+                    @include fonL500();
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-transform: uppercase;        
+                    color: #FBFBFB;
+                }
+            }
+            .btn__belum{
+                @include fonL500();
+                font-size: 16px;
+                line-height: 19px;
+                display: flex;
+                align-items: flex-end;
+                color: #334756;
+            }
+        }
+    } 
+}
